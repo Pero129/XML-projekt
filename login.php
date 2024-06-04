@@ -4,8 +4,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    // Učitavanje XML datoteke
-    $xml = simplexml_load_file('users.xml');
+    // Provjera učitavanja XML datoteke
+    if (file_exists('users.xml')) {
+        $xml = simplexml_load_file('users.xml');
+    } else {
+        die('Error: Cannot find users.xml file.');
+    }
 
     // Provjera korisničkog imena i lozinke
     $authenticated = false;
@@ -20,32 +24,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 
-    // Definicija Dota 2 heroja
-    $heroes = [
-        ["name" => "Anti-Mage", "main_stat" => "Agility"],
-        ["name" => "Axe", "main_stat" => "Strength"],
-        ["name" => "Bane", "main_stat" => "Intelligence"],
-        ["name" => "Bloodseeker", "main_stat" => "Agility"],
-        ["name" => "Crystal Maiden", "main_stat" => "Intelligence"],
-        ["name" => "Drow Ranger", "main_stat" => "Agility"],
-        ["name" => "Earthshaker", "main_stat" => "Strength"],
-        ["name" => "Juggernaut", "main_stat" => "Agility"],
-        ["name" => "Mirana", "main_stat" => "Agility"],
-        ["name" => "Morphling", "main_stat" => "Agility"],
-        ["name" => "Shadow Fiend", "main_stat" => "Agility"],
-        ["name" => "Phantom Lancer", "main_stat" => "Agility"],
-        ["name" => "Puck", "main_stat" => "Intelligence"],
-        ["name" => "Pudge", "main_stat" => "Strength"],
-        ["name" => "Razor", "main_stat" => "Agility"],
-        ["name" => "Sand King", "main_stat" => "Strength"],
-        ["name" => "Storm Spirit", "main_stat" => "Intelligence"],
-        ["name" => "Sven", "main_stat" => "Strength"],
-        ["name" => "Tiny", "main_stat" => "Strength"],
-        ["name" => "Vengeful Spirit", "main_stat" => "Agility"],
-    ];
+    // Provjera učitavanja JSON datoteke
+    if (file_exists('heroes.json')) {
+        $heroes = json_decode(file_get_contents('heroes.json'), true);
+    } else {
+        die('Error: Cannot find heroes.json file.');
+    }
+
+    // Nasumično odabiranje 10 heroja
+    $random_heroes = array_rand($heroes, 10);
+    $selected_heroes = array();
+    foreach ($random_heroes as $index) {
+        $selected_heroes[] = $heroes[$index];
+    }
 
     // Razvrstavanje heroja po glavnom statutu
-    usort($heroes, function ($a, $b) {
+    usort($selected_heroes, function ($a, $b) {
         return strcmp($a["main_stat"], $b["main_stat"]);
     });
 
@@ -71,7 +65,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <th>Ime heroja</th>
                         <th>Glavni stat</th>
                     </tr>';
-        foreach ($heroes as $hero) {
+        foreach ($selected_heroes as $hero) {
             echo '<tr>
                     <td>' . htmlspecialchars($hero["name"]) . '</td>
                     <td>' . htmlspecialchars($hero["main_stat"]) . '</td>
@@ -87,6 +81,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <head>
             <meta charset="UTF-8">
             <title>Neuspješna prijava</title>
+            <link rel="stylesheet" href="styles.css">
         </head>
         <body>
             <div class="error-container">
