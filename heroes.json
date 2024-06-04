@@ -1,0 +1,486 @@
+[
+    {
+        "name": "Anti-Mage",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Axe",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Bane",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Bloodseeker",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Crystal Maiden",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Drow Ranger",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Earthshaker",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Juggernaut",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Mirana",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Morphling",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Shadow Fiend",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Phantom Lancer",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Puck",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Pudge",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Razor",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Sand King",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Storm Spirit",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Sven",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Tiny",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Vengeful Spirit",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Windranger",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Zeus",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Kunkka",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Lina",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Lion",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Tidehunter",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Witch Doctor",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Lich",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Riki",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Enigma",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Tinker",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Sniper",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Necrophos",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Warlock",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Beastmaster",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Queen of Pain",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Venomancer",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Faceless Void",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Wraith King",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Death Prophet",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Phantom Assassin",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Pugna",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Templar Assassin",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Viper",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Luna",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Dragon Knight",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Dazzle",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Clockwerk",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Leshrac",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Nature's Prophet",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Lifestealer",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Dark Seer",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Clinkz",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Omniknight",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Enchantress",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Huskar",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Night Stalker",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Broodmother",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Bounty Hunter",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Weaver",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Jakiro",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Batrider",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Chen",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Spectre",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Ancient Apparition",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Doom",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Ursa",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Spirit Breaker",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Gyrocopter",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Alchemist",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Invoker",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Silencer",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Outworld Devourer",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Brewmaster",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Shadow Demon",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Lone Druid",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Chaos Knight",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Meepo",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Treant Protector",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Ogre Magi",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Undying",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Rubick",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Disruptor",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Nyx Assassin",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Naga Siren",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Keeper of the Light",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Io",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Visage",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Slark",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Medusa",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Troll Warlord",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Centaur Warrunner",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Magnus",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Timbersaw",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Bristleback",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Tusk",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Skywrath Mage",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Abaddon",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Elder Titan",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Legion Commander",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Techies",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Ember Spirit",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Earth Spirit",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Underlord",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Terrorblade",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Phoenix",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Oracle",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Winter Wyvern",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Arc Warden",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Monkey King",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Dark Willow",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Pangolier",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Grimstroke",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Mars",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Void Spirit",
+        "main_stat": "Intelligence"
+    },
+    {
+        "name": "Snapfire",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Hoodwink",
+        "main_stat": "Agility"
+    },
+    {
+        "name": "Dawnbreaker",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Marci",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Primal Beast",
+        "main_stat": "Strength"
+    },
+    {
+        "name": "Muerta",
+        "main_stat": "Intelligence"
+    }
+]
